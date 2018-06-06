@@ -88,6 +88,8 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DependencyServices\IOSMessage.cs" />
+    <Compile Include="DependencyServices\IOSTextVoz.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="Entitlements.plist" />
@@ -128,4 +130,5 @@
       <Name>DepServices</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
 </Project>
